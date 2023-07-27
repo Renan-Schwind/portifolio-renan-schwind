@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Renan Schwind - Desenvolvedor Frontend</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">RS</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 🖖, eu sou o</p>
+          <h1>Renan Schwind</h1>
+          <h2>Desenvolvedor Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/renan-schwind/" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/Renan-Schwind" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+            <a href="mailto:renan.schwind@gmail.com" target="_blank" class="outer-shadow"><i class="fas fa-envelope-open"></i></a>
+            <a href="https://wa.me/+5511981881884" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>         
+          </div>
+          <br>
+          <div class="botoes">
+            <a target="_blank" href="/src/documents/CV Renan Schwind - Frontend.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/foto-perfil.jpg" alt="foto do perfil do Renan" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/CP.jpg" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Renan Schwind e sou um desenvolvedor Frontend em
+              formação!</strong>
+             Desde pequeno eu sou apaixonado por tecnologias e muito bom em qualquer estilo de game. Minha habilidade de puzzles e a facilidade em aprender coisas novas todos os dias, me mostrou no desenvolvimento frontend uma paixão não conhecida por mim até aqui na minha jornada de vida.
+             Com a experiência em resolver conflitos quero agregar o conhecimento técnico das linguaguens de programação para ajudar a encontrar a solução para os diferentes desafios que são apresentados no dia-a-dia. 
+          </p>
+
+          <p>
+           Estou sempre me desafiando com novos projetos e participando de comunidades de programação. Gosto de receber o feedback de outros desenvolvedores pois aprendo muito assim.
+           E claro, sempre tento ajudar essas pessoas com o que eu já aprendi quando posso. 😁
+          </p>    
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          
+        </div>
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">        
+          <a href="https://renan-schwind.github.io/Agencia-novaR/" target="_blank">
+            <img src="src/imagens/agencia-novar.png" alt="Agência novaR" />
+            <h3>Projeto Agência novaR</h3>
+            <div class="informacoes-projeto">          
+              <p>HTML, CSS</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>     
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="https://renan-schwind.github.io/Projeto-X-men/" target="_blank">
+            <img src="src/imagens/x-men-resp.png" alt="Projeto X-Men" />
+            <h3>Projeto X-Men</h3>
+            <div class="informacoes-projeto">          
+              <p>JS, HTML, CSS</p>              
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>      
+          </a>          
+        </div>
+
+        <div class="projeto">     
+          <a href="https://renan-schwind.github.io/DesafioQrCode-FrontendMentor/" target="_blank">
+            <img src="src/imagens/qrcode.png" alt="Qr Code - Frontend Mentor" />
+            <h3>Desafio Frontend Mentor</h3>
+            <div class="informacoes-projeto">
+              <p>HTML e CSS</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>   
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Fala Comigo!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/renan-schwind/" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Renan-Schwind" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+        <a href="mailto:renan.schwind@gmail.com" target="_blank" class="outer-shadow"><i class="fas fa-envelope-open"></i></a>
+        <a href="https://wa.me/+5511981881884" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
